@@ -1,0 +1,4 @@
+f2py3 -L/usr/lib. -llapack -c fortran_input.f -m f_out_for_so
+or
+
+f2py3.9 -L/usr/lib. -llapack -c net_nstates.f -m net_nstates
