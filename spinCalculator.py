@@ -45,10 +45,14 @@ def spinCalculator(basis, energy, ci, lenBasis, Final):
                 fout.write(newline)
     return s2List
 
-def stateFinder( s2ValList, s2Target):
+def stateFinder( s2ValList, s2Target, old_state):
     diffList = []
     for i in range(nStates):
         diff = abs(s2Target - s2ValList[i])
         diffList.append(diff)
         n = diffList.index(min(diffList))
+
+    if ((diffList[old_state] - min(diffList)) <= 0.1):
+        n = old_state
+        
     return n, abs(s2ValList[n] - s2Target)

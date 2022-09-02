@@ -30,7 +30,7 @@ if model == 'GM':
 
 mlStart = 4
 mlPerSpace = 3
-spaceIncrease = 2000
+spaceIncrease = 200
 
 dataFile = outputfile + ".TrainData_subSpace.csv"
 
@@ -122,12 +122,13 @@ def performMCCI():
     
         
         if (i < startSpinTargetItr):
+            targetState[0] = 0;
             targetState[1] = 0;
             s2ValDiff = [10, 10]    # dont want to inculde spin information on optimizations
         
         if (i == startSpinTargetItr): # for smmoth transition from non spin target to spin target cacluations
             
-            targetState[1], s2ValDiff[1] = stateFinder(s2ValList,s2Target)  # for first state of a particular spin
+            targetState[1], s2ValDiff[1] = stateFinder(s2ValList,s2Target,targetState[0])  # for first state of a particular spin
             
             newline = ("\nStarting Optimization W.R.T Spin, Target State Spin Value -> %f \n\n")%(s2Target)
             with open(outputfile, "a") as fout:
@@ -136,7 +137,7 @@ def performMCCI():
             s2ValDiff[0] = s2ValDiff[1]  
         
         if (i > startSpinTargetItr):
-            targetState[1], s2ValDiff[1] = stateFinder(s2ValList,s2Target)  # for first state of a particular spin
+            targetState[1], s2ValDiff[1] = stateFinder(s2ValList,s2Target,targetState[0])  # for first state of a particular spin
 
         
         
