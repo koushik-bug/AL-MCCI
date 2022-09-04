@@ -41,7 +41,7 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 ***startSetup***
 model,HB
 nSite,18
-subSpace,2000
+subSpace,200
 nStates,10
 Ms,1,0
 s2Target,0
