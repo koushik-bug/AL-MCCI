@@ -1,5 +1,5 @@
 # AL-MCCI
-![active_learning](https://user-images.githubusercontent.com/111356771/188319101-6ae8ba17-4ff0-484b-9219-2a615df9a75e.png | width =  100)
+![active_learning](https://user-images.githubusercontent.com/111356771/188319101-6ae8ba17-4ff0-484b-9219-2a615df9a75e.png =  100x100)
 
 
 > Using AL-MCCI the singlet and triplet state of a molecule can be calcultated using Heisenberg spin-1/2 Hamiltonian model. From that ST can be calculated.
