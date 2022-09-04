@@ -1,2 +1,1 @@
-# AL-MCCI
-fufyikuolilogfycki
+Input File
