@@ -1,6 +1,4 @@
 # AL-MCCI
-
-![Project Image](project-image-url)
 ![active_learning](https://user-images.githubusercontent.com/111356771/188319101-6ae8ba17-4ff0-484b-9219-2a615df9a75e.png)
 
 
