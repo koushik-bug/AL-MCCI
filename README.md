@@ -36,10 +36,19 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 ## How To Use
 
 ### Prerequisites 
-1) Python3.0 +
-2) PyTorch
+1) CUDA Device
+2) CUDA Toolkit
+3) Python3.6 +
+4) PyTorch
+6) Numba
+7) f2py3
 
 ### Installation
+After geting the code the net_nstates.f file, which is a Fortran code, need to converted into a Python excutable file. f2py3 a Fortran to Python interface generator used at this point. 
+```html
+    <f2py3b -L/usr/lib.
+```
+
 
 ### Input file
 startSetup
@@ -74,6 +83,7 @@ restart,False
 
 endSetup
 
+### Performing a Calculation
 #### API Reference
 
 ```html
@@ -92,7 +102,7 @@ endSetup
 
 MIT License
 
-Copyright (c) [2017] [James Q Quick]
+Copyright (c) [2022] [Koushik Seth, Debashree Ghosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
