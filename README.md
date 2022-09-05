@@ -38,7 +38,7 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 #### Installation
 
 #### Input file
-***startSetup***
+startSetup
 model,HB
 nSite,18
 subSpace,200
@@ -53,7 +53,7 @@ jValue,1
 beta,38.61
 bondOrder,bondOrder-6666.dat
 restart,False
-***endSetup***
+endSetup
 
 #### API Reference
 
