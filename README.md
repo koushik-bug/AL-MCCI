@@ -35,9 +35,13 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 ## How To Use
 
-#### Installation
+### Prerequisites 
+1) Python3.0 +
+2) PyTorch
 
-#### Input file
+### Installation
+
+### Input file
 startSetup
 
 model,HB
