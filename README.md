@@ -21,8 +21,8 @@ You're sections headers will be used to reference location of destination.
 ---
 
 ## Description
+Monte Carlo (MC) is a numerical technique where a problem is solved using the help of a random number. In Monte Carlo Configuration Interaction (MCCI), a system's electronic structure is solved using the CI-based method. Though MCCI help to study the electronic structure of a system that was otherwise impossible to do, it suffers from slow convergence. We devised a protocol called AL-MCCI, where active learning makes the convergence manifold faster and can also optimize Hilbert space for a particular state.
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
 
 
 [Back To The Top](#read-me-template)
