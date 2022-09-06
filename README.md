@@ -57,13 +57,34 @@ To perform an AL-MCCI calculations, user need to configure the input file based 
 
 
 ### Setup of Input File
-In the input file, argumanent are given in  "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.
-a,10  
-b,5  
-c,4  
+In the input file, argumanent are given in  "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.  
 
 
+n the input file, argumanent are given in  "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.
 
+\*\*\*startSetup\*\*\*   First line of input setup file  
+model,HB                 Hamiltonian model, HB for Hisenberg Hamiltonian model  
+nSite,14                \! number of site on the system, In this case system has 14 sites  
+subSpace,200            \! Initial Size of the sub-Hilbert space. Here we start with 200 configurations  
+nStates,10
+
+Ms,1,0
+
+s2Target,0
+
+maxItr,26
+
+startSpinTargetItr,5
+
+energyTola,5e-5
+
+spinTola,0.2
+
+jValue,1
+
+beta,38.61
+
+bondOrder,bondOrder-6666.dat
 
 ### Performing a Calculation
 ### API Reference
