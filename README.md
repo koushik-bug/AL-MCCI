@@ -63,29 +63,22 @@ In the input file, argumanent are given in  "P,Q,R" format, where P is the keywo
 n the input file, argumanent are given in  "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.
 
 ```
-\*\*\*startSetup\*\*\*          !First line of input setup file  
-model,HB                 Hamiltonian model, HB for Hisenberg Hamiltonian model  
-nSite,14                \! number of site on the system, In this case system has 14 sites  
-subSpace,200            \! Initial Size of the sub-Hilbert space. Here we start with 200 configurations  
-nStates,10
-
-Ms,1,0
-
-s2Target,0
-
-maxItr,26
-
-startSpinTargetItr,5
-
-energyTola,5e-5
-
-spinTola,0.2
-
-jValue,1
-
-beta,38.61
-
-bondOrder,bondOrder-6666.dat
+***startSetup***         # First line of input setup file  
+model,HB                 # Hamiltonian model, HB for Hisenberg Hamiltonian model  
+nSite,14                 # number of site on the system, In this case system has 14 sites  
+subSpace,200             # Initial Size of the sub-Hilbert space. Here we start with 200 configurations  
+nStates,10               # Number of states on which spin states are calculated
+Ms,1,0                   #  
+s2Target,0               # Spin value of target states, 0 for singlet, 2 for triplet                  
+maxItr,30                # Maximum iteration number  
+startSpinTargetItr,5     # From which iteration Spin targeting has start. Minimum value should be 1
+energyTola,0.01          # Energy convergence threshold
+spinTola,0.2             # Spin convergence threshold
+jValue,1                 # Coupling constant.
+beta,38.61               # kT value of Boltzmann probability distribution function
+bondOrder,bondOrder-765.dat    # Node connection file name. This file carry disticnt information about the system
+restart,False            # about restrating status of the calcution. If user want to run the calculation from last
+                            of previous calculations, False value need to change 
 ```
 ### Performing a Calculation
 ### API Reference
