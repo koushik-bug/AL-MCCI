@@ -21,9 +21,9 @@ You're sections headers will be used to reference location of destination.
 ---
 
 ## Description
-Monte Carlo (MC) is a numerical technique where a problem is solved using the help of a random number. In Monte Carlo Configuration Interaction (MCCI), a system's electronic structure is solved using the CI-based method. Though MCCI help to study the electronic structure of a system that was otherwise impossible to do, it suffers from slow convergence. We devised a protocol called AL-MCCI, where active learning makes the convergence manifold faster and can also optimize Hilbert space for a particular target state.
+Monte Carlo (MC) is a numerical technique where a problem is solved using the help of a random number. In Monte Carlo Configuration Interaction (MCCI), a system's electronic structure is solved using the CI-based method. Though MCCI help to study the electronic structure of a system that was otherwise impossible to do, it suffers from slow convergence. We devised a protocol called active learning assisted  MCCI (AL-MCCI), where active learning makes the convergence manifold faster and can also optimize Hilbert space for a particular target state.
 
-
+Initially, MCCI steps update the sub-Hilbert space and build the train data set. An Artificial Neural Network (ANN) model learns from the data and, using that information, predicts the relative importance of unlabelled configurations. The preliminary information about the configurations helps build a better Hilbert space, leading to faster convergence.
 
 [Back To The Top](#read-me-template)
 
