@@ -78,7 +78,8 @@ jValue,1                 # Coupling constant.
 beta,38.61               # kT value of Boltzmann probability distribution function
 bondOrder,bondOrder-765.dat    # Node connection file name. This file carry disticnt information about the system
 restart,False            # about restrating status of the calcution. If user want to run the calculation from last
-                            of previous calculations, False value need to change 
+                            step of previous calculation, "False" value need to change as "True", and 2nd value needed
+                            which is the file name of last job's final configurations list.
 ```
 ### Performing a Calculation
 ### API Reference
