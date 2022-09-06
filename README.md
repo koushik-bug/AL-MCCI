@@ -133,6 +133,18 @@ These are scratch files generated during calculations. It is recommended to dele
 
 ---
 
+## Contributors
+- Koushik Seth
+- Debashree Ghosh
+
+## Author Info
+
+- Twitter - [@koushikseth29](https://twitter.com/koushikseth29) [@GhoshDebashree1](https://twitter.com/GhoshDebashree1) 
+- Website - [dglab](https://debashreeghosh.wixsite.com/dglab)
+
+[Back To The Top](#read-me-template)
+---
+
 ## License
 
 MIT License
@@ -160,14 +172,5 @@ SOFTWARE.
 [Back To The Top](#read-me-template)
 
 ---
-## Contributors
-- Koushik Seth
-- Debashree Ghosh
 
-## Author Info
-
-- Twitter - [@koushikseth29](https://twitter.com/koushikseth29) [@GhoshDebashree1](https://twitter.com/GhoshDebashree1) 
-- Website - [dglab](https://debashreeghosh.wixsite.com/dglab)
-
-[Back To The Top](#read-me-template)
 
