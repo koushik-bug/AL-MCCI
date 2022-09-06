@@ -60,9 +60,8 @@ To perform an AL-MCCI calculations, user need to configure the input file based 
 
 ### Setup of Input File
 In the input file, argumanent are given in  "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.
-
-subSpace,200
-nStates,10
+a = 10
+b = 5
 
 
 
