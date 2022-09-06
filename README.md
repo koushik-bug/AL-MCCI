@@ -12,7 +12,7 @@ You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [Output Files]()
+- [Output Files](#output-files)
 - [References](#references)
 - [License](#license)
 - [Author Info](#author-info)
@@ -105,6 +105,8 @@ Once the input file is constructed and all the file put into a same directory, A
 ```html
     python exe.py input_file.in &
 ```
+
+## Output Files
 
 ### API Reference
 
