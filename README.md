@@ -36,10 +36,11 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 ## How To Use
 
 ### Prerequisites 
-1) CUDA Device
-2) CUDA Toolkit
-3) Python3.6 +
-4) PyTorch
+1) Linux based OS
+2) CUDA Device
+3) CUDA Toolkit
+4) Python3.6 +
+5) PyTorch
 6) Numba
 7) f2py3
 
@@ -48,7 +49,10 @@ After geting the code the net_nstates.f file, which is a Fortran code, need to c
 ```html
     f2py3b -L/usr/lib. -llapack -c net_nstates.f -m net_states
 ```
-This commant generate a file - net_nstates.cpython-xxxxxx-gnu.so
+This command generate a file - net_nstates.cpython-xxxxxx-gnu.so. Rename this file to net_nstates.so.
+```html
+    mv  net_nstates.cpython-xxxxxx-gnu.so -m net_states.so
+```
 
 ### Input file
 startSetup
