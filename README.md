@@ -82,7 +82,9 @@ restart,False            # About restrating status of the calcution. If user wan
                             which is the file name of last job's final configurations list.
 ```
 #### Connection file
-![github_765](https://user-images.githubusercontent.com/111356771/188588505-b2f468d6-e7f9-4e51-8d59-91241f2b02f6.png)
+![github_765_comp](https://user-images.githubusercontent.com/111356771/188589060-39873f6f-abb6-40ee-844b-aca865881679.png)
+
+
 
 ### Performing a Calculation
 ### API Reference
