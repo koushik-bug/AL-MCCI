@@ -16,8 +16,7 @@ You're sections headers will be used to reference location of destination.
 - [References](#references)
 - [Contributors](#Contributors)
 - [Author Info](#author-info)  
-- [License](#license)
-- 
+- [License](#license) 
 
 ---
 
