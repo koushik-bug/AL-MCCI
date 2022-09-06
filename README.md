@@ -83,9 +83,24 @@ restart,False            # About restrating status of the calcution. If user wan
 ```
 #### Connection file
 ![github_765_comp](https://user-images.githubusercontent.com/111356771/188589060-39873f6f-abb6-40ee-844b-aca865881679.png)
-
-
-
+```
+1       2
+2       3
+3       4
+4       5
+5       6
+6       7
+7       8
+8       9
+9       10
+10      11
+11      12
+12      13
+13      14
+14      1
+14      6
+12      8
+```
 ### Performing a Calculation
 ### API Reference
 
