@@ -59,7 +59,7 @@ To perform an AL-MCCI calculations, user need to configure the input file based 
 
 
 ### Setup of Input File
-startSetup      = First line of input setup file
+startSetup      = First line of input setup fil
 model,HB        =   Hamiltonian model, HB for Hisenberg Hamiltonian model
 
 ### Performing a Calculation
