@@ -79,7 +79,7 @@ restart,False            # About restrating status of the calcution. If user wan
                             which is the file name of last job's final configurations list.
 ```
 #### Connection file
-At first user need to assigen a number with each node.
+At first user needs to assigen a number with each node.
 ![github_765_comp](https://user-images.githubusercontent.com/111356771/188589060-39873f6f-abb6-40ee-844b-aca865881679.png)
 A connection file required which contain systems bond information a format given bellow-
 ```
@@ -101,6 +101,7 @@ A connection file required which contain systems bond information a format given
 12      8
 ```
 ### Performing a Calculation
+
 ### API Reference
 
 ```html
