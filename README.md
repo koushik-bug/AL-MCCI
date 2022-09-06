@@ -73,6 +73,7 @@ beta,38.61               # kT value of Boltzmann probability distribution functi
 bondOrder,bondOrder-765.dat    # Node connection file name. This file carries specific information about the system
 restart,False            # About restarting status of the calculation. If a user wants to run the calculation from the last step of the previous calculation, the
                          False " value needs to change to "True," and the second value is the file name of the last job's final configurations list.
+***endSetup***           # Last line of the setup file
 ```
 #### Connection file
 At first, the user needs to assign a number to each node.
