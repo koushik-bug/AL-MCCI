@@ -80,7 +80,7 @@ restart,False            # About restrating status of the calcution. If user wan
 #### Connection file
 At first user needs to assigen a number with each node.
 ![github_765_comp](https://user-images.githubusercontent.com/111356771/188589060-39873f6f-abb6-40ee-844b-aca865881679.png)
-A connection file required which contain systems bond information a format given bellow-
+A connection file required which contains system bond information a format given bellow-
 ```
 1       2
 2       3
@@ -100,6 +100,7 @@ A connection file required which contain systems bond information a format given
 12      8
 ```
 ### Performing a Calculation
+Once the input file is ready
 
 ### API Reference
 
