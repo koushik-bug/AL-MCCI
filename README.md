@@ -110,7 +110,7 @@ Once the input file is constructed and all the file put into a same directory, u
 There is total 10 output file generated after a sucsseful calculations-  
 The main files are
 ```
-1) input_file.in.out            # Main output file, which contatin information of subspace size, energy and spin value with each iteations. 
+1) input_file.in.out            # Main output file, which contatin information of subspace size, energy and spin value with each iterations. 
 2) input_file.in.out.basis      # Configurations of final sub-Hilbert space
 3) input_file.in.out.ci         # CI coeffcienet corrosponding to configurations
 4) input_file.in.out.model.pth  # Final optimized ANN model
