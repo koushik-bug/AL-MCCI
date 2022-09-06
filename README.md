@@ -100,7 +100,10 @@ A connection file required which contains system bond information a format given
 12      8
 ```
 ### Performing a Calculation
-Once the input file is ready
+Once the input file is constructed and all the file put into a same directory, AL-MCCI code run by using bellow command-
+```html
+    python exe.py input_file.in &
+```
 
 ### API Reference
 
@@ -147,7 +150,7 @@ SOFTWARE.
 ## Author Info
 
 - Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- Website - [dglab](https://debashreeghosh.wixsite.com/dglab)
 
 [Back To The Top](#read-me-template)
 
