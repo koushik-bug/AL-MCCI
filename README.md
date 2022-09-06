@@ -149,7 +149,7 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@DebashreeGhosh](@GhoshDebashree1)
+- Twitter - [@GhoshDebashree1](https://twitter.com/GhoshDebashree1) [@koushikseth29](https://twitter.com/koushikseth29)
 - Website - [dglab](https://debashreeghosh.wixsite.com/dglab)
 
 [Back To The Top](#read-me-template)
