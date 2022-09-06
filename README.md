@@ -59,9 +59,6 @@ To perform an AL-MCCI calculations, user need to configure the input file based 
 ### Setup of Input File
 In the input file, argumanent are given in  "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.  
 
-
-n the input file, argumanent are given in  "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.
-
 ```
 ***startSetup***         # First line of input setup file  
 model,HB                 # Hamiltonian model, HB for Hisenberg Hamiltonian model  
@@ -82,7 +79,9 @@ restart,False            # About restrating status of the calcution. If user wan
                             which is the file name of last job's final configurations list.
 ```
 #### Connection file
+At first user need to assigen a number with each node.
 ![github_765_comp](https://user-images.githubusercontent.com/111356771/188589060-39873f6f-abb6-40ee-844b-aca865881679.png)
+A connection file required which contain systems bond information a format given bellow-
 ```
 1       2
 2       3
