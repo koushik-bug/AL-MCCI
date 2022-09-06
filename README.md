@@ -108,9 +108,16 @@ Once the input file is constructed and all the file put into a same directory, u
 
 ## Output Files
 There is total 10 output file generated after a sucsseful calculations-  
-1)input_file.in  # Main output file, which contatin information of subspace size, energy and spin value with each iteations.
-                   At last
-
+The main files are
+```
+1) input_file.in.out            # Main output file, which contatin information of subspace size, energy and spin value with each iteations. 
+2) input_file.in.out.basis      # Configurations of final sub-Hilbert space
+3) input_file.in.out.ci         # CI coeffcienet corrosponding to configurations
+4) input_file.in.out.model.pth  # Final optimized ANN model
+5) input_file.in.out.error.dat  # Train and test error at each AL iterations
+6) input_file.in.out.TrainData_subSpace.csv # Train data set generated during calculations
+```
+Apart from thar there are four more files- 7)  input_file.in.out.predictData.csv 8) input_file.in.out.accVsPreTest.dat 9) input_file.in.out.accVsPreTrain.dat and 10) input_file.in.out.accVsPreTest.dat, which are generated during calculations. It is recomended to delete these files to maintain a cleaner directory.
 ### API Reference
 
 ```html
