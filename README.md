@@ -117,7 +117,14 @@ The main files are
 5) input_file.in.out.error.dat  # Train and test error at each AL iterations
 6) input_file.in.out.TrainData_subSpace.csv # Train data set generated during calculations
 ```
-Apart from thar there are four more files- 7)  input_file.in.out.predictData.csv 8) input_file.in.out.accVsPreTest.dat 9) input_file.in.out.accVsPreTrain.dat and 10) input_file.in.out.accVsPreTest.dat, which are generated during calculations. It is recomended to delete these files to maintain a cleaner directory.
+Apart from thar there are four more files- 
+```
+7) input_file.in.out.predictData.csv 
+8) input_file.in.out.accVsPreTest.dat 
+9) input_file.in.out.accVsPreTrain.dat 
+10) input_file.in.out.accVsPreTest.dat
+```
+which are generated during calculations. It is recomended to delete these files to maintain a cleaner directory.
 ### API Reference
 
 ```html
