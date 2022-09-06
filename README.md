@@ -167,10 +167,13 @@ SOFTWARE.
 [Back To The Top](#read-me-template)
 
 ---
+## Contributors
+1) Koushik Seth
+2) Debashree GHosh
 
 ## Author Info
 
-- Twitter - [@GhoshDebashree1](https://twitter.com/GhoshDebashree1) [@koushikseth29](https://twitter.com/koushikseth29)
+- Twitter - [@koushikseth29](https://twitter.com/koushikseth29) [@GhoshDebashree1](https://twitter.com/GhoshDebashree1) 
 - Website - [dglab](https://debashreeghosh.wixsite.com/dglab)
 
 [Back To The Top](#read-me-template)
