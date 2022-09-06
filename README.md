@@ -107,6 +107,9 @@ Once the input file is constructed and all the file put into a same directory, u
 ```
 
 ## Output Files
+There is total 10 output file generated after a sucsseful calculations-  
+1)input_file.in  # Main output file, which contatin information of subspace size, energy and spin value with each iteations.
+                   At last
 
 ### API Reference
 
