@@ -3,7 +3,7 @@
 
 ![Project Image](project-image-url)
 
-> Using AL-MCCI, a molecule's singlet and triplet state can be calculated using the Heisenberg spin-1/2 Hamiltonian model. From that, ST can be calculated.
+> Using Active Learning assisted Monte Carlo Configuration Interaction (AL-MCCI), singlet and triplet state of a model(and molecule) can be calculated using the Heisenberg spin-1/2 Hamiltonian model.
 
 ---
 
