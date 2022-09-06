@@ -101,7 +101,7 @@ A connection file required which contains system bond information a format given
 12      8
 ```
 ### Performing a Calculation
-Once the input file is constructed and all the file put into a same directory, AL-MCCI code run by using bellow command-
+Once the input file is constructed and all the file put into a same directory, user can perform AL-MCCI calculation by using bellow command-
 ```html
     python exe.py input_file.in &
 ```
