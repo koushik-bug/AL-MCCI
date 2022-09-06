@@ -65,7 +65,7 @@ n the input file, argumanent are given in  "P,Q,R" format, where P is the keywor
 ```
 ***startSetup***         # First line of input setup file  
 model,HB                 # Hamiltonian model, HB for Hisenberg Hamiltonian model  
-nSite,14                 # number of site on the system, In this case system has 14 sites  
+nSite,14                 # Number of site on the system, In this case system has 14 sites  
 subSpace,200             # Initial Size of the sub-Hilbert space. Here we start with 200 configurations  
 nStates,10               # Number of states on which spin states are calculated
 Ms,1,0                   #  
@@ -77,7 +77,7 @@ spinTola,0.2             # Spin convergence threshold
 jValue,1                 # Coupling constant.
 beta,38.61               # kT value of Boltzmann probability distribution function
 bondOrder,bondOrder-765.dat    # Node connection file name. This file carry disticnt information about the system
-restart,False            # about restrating status of the calcution. If user want to run the calculation from last
+restart,False            # About restrating status of the calcution. If user want to run the calculation from last
                             step of previous calculation, "False" value need to change as "True", and 2nd value needed
                             which is the file name of last job's final configurations list.
 ```
