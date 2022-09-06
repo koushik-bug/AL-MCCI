@@ -47,7 +47,7 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 ### Installation
 After geting the code the net_nstates.f file, which is a Fortran code, need to converted into a Python excutable file. f2py3 a Fortran to Python interface generator used at this point. 
 ```html
-    f2py3b -L/usr/lib. -llapack -c net_nstates.f -m net_states
+    f2py3 -L/usr/lib. -llapack -c net_nstates.f -m net_states
 ```
 This command generate a file - net_nstates.cpython-xxxxxx-gnu.so. Rename this file to net_nstates.so.
 ```html
@@ -164,7 +164,7 @@ SOFTWARE.
 ---
 ## Contributors
 1) Koushik Seth
-2) Debashree GHosh
+2) Debashree Ghosh
 
 ## Author Info
 
