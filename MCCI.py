@@ -30,7 +30,7 @@ if model == 'GM':
 
 mlStart = 4
 mlPerSpace = 3
-spaceIncrease = 200
+spaceIncrease = subSpace
 
 dataFile = outputfile + ".TrainData_subSpace.csv"
 
