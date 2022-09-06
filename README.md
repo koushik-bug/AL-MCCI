@@ -117,6 +117,7 @@ The main files are
 5) input_file.in.out.error.dat  # Train and test error at each AL iterations
 6) input_file.in.out.TrainData_subSpace.csv # Train data set generated during calculations
 ```
+This files are important for system analysis.
 Apart from thar there are four more files- 
 ```
 7) input_file.in.out.predictData.csv 
