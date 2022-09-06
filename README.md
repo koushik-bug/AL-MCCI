@@ -61,8 +61,8 @@ In the input file, argumanent are given in  "P,Q,R" format, where P is the keywo
 
 ```
 ***startSetup***         # First line of input setup file  
-model,HB                 # Hamiltonian model, HB for Hisenberg Hamiltonian model  
-nSite,14                 # Number of site on the system, In this case system has 14 sites  
+model,HB                 # Hamiltonian model, HB for Heisenberg Hamiltonian model  
+nSite,14                 # Number of the site on the system, In this case, system has 14 sites  
 subSpace,200             # Initial Size of the sub-Hilbert space. Here we start with 200 configurations  
 nStates,10               # Number of states on which spin states are calculated
 Ms,1,0                   #  
@@ -73,15 +73,14 @@ energyTola,0.01          # Energy convergence threshold
 spinTola,0.2             # Spin convergence threshold
 jValue,1                 # Coupling constant.
 beta,38.61               # kT value of Boltzmann probability distribution function
-bondOrder,bondOrder-765.dat    # Node connection file name. This file carry disticnt information about the system
-restart,False            # About restrating status of the calcution. If user want to run the calculation from last
-                            step of previous calculation, "False" value need to change as "True", and 2nd value needed
-                            which is the file name of last job's final configurations list.
+bondOrder,bondOrder-765.dat    # Node connection file name. This file carries specific information about the system
+restart,False            # About restarting status of the calculation. If a user wants to run the calculation from the last step of the previous calculation, the
+                         False " value needs to change to "True," and the second value is the file name of the last job's final configurations list.
 ```
 #### Connection file
-At first user needs to assigen a number with each node.
+At first, the user needs to assign a number to each node.
 ![github_765_comp](https://user-images.githubusercontent.com/111356771/188589060-39873f6f-abb6-40ee-844b-aca865881679.png)
-A connection file required which contains system bond information a format given bellow-
+A connection file is required, which contains system bond information in the format given below-
 ```
 1       2
 2       3
@@ -101,7 +100,7 @@ A connection file required which contains system bond information a format given
 12      8
 ```
 ### Performing a Calculation
-Once the input file is constructed and all the file put into a same directory, user can perform AL-MCCI calculation by using bellow command-
+Once the input file is constructed and all the files put into the same directory, the user can perform the AL-MCCI calculation by using the below command-
 ```html
     python exe.py input_file.in &
 ```
