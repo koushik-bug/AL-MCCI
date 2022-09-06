@@ -51,10 +51,14 @@ After geting the code the net_nstates.f file, which is a Fortran code, need to c
 ```
 This command generate a file - net_nstates.cpython-xxxxxx-gnu.so. Rename this file to net_nstates.so.
 ```html
-    mv  net_nstates.cpython-xxxxxx-gnu.so -m net_states.so
-```
+    mv  net_nstates.cpython-xxxxxx-gnu.so  net_states.so
 
-### Input file
+
+```
+To perform an AL-MCCI calculations, user need to configure the input file based on system in considerations. There is no restriction on the name of input file  but the extension should be ".in"
+
+
+### Setup of Input File
 startSetup
 
 model,HB
