@@ -126,11 +126,7 @@ Apart from thar there are four more files-
 10) input_file.in.out.accVsPreTest.dat
 ```
 which are generated during calculations. It is recomended to delete these files to maintain a cleaner directory.
-### API Reference
 
-```html
-    <p>dummy code</p>
-```
 [Back To The Top](#read-me-template)
 
 ---
