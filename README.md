@@ -62,6 +62,7 @@ In the input file, argumanent are given in  "P,Q,R" format, where P is the keywo
 
 n the input file, argumanent are given in  "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.
 
+'''
 \*\*\*startSetup\*\*\*          !First line of input setup file  
 model,HB                 Hamiltonian model, HB for Hisenberg Hamiltonian model  
 nSite,14                \! number of site on the system, In this case system has 14 sites  
@@ -85,7 +86,7 @@ jValue,1
 beta,38.61
 
 bondOrder,bondOrder-6666.dat
-
+'''
 ### Performing a Calculation
 ### API Reference
 
