@@ -3,7 +3,7 @@
 
 ![Project Image](project-image-url)
 
-> Using Active Learning assisted Monte Carlo Configuration Interaction (AL-MCCI), singlet and triplet state of a model(and molecule) can be calculated using the Heisenberg spin-1/2 Hamiltonian model.
+> Active Learning assisted Monte Carlo Configuration Interaction (AL-MCCI) is a protocol to calculate the singlet and triplet state of a model(and molecule) using the Heisenberg spin-1/2 Hamiltonian model.
 
 ---
 
