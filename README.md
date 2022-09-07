@@ -70,8 +70,8 @@ spinTola,0.2             # Spin convergence threshold
 jValue,1                 # Coupling constant.
 beta,38.61               # kT value of Boltzmann probability distribution function
 bondOrder,bondOrder-765.dat    # Node connection file name. This file carries specific information about the system
-restart,False            # About restarting status of the calculation. If a user wants to run the calculation from the last step of the previous calculation, the
-                         False " value needs to change to "True," and the second value is the file name of the last job's final configurations list.
+restart,False            # About restarting status of the calculation. If the user wants to run the calculation from the last step of the previous calculation, the
+                         "False" value needs to be changed to "True," and the second value is the file name of the last job's final configurations list.
 ***endSetup***           # Last line of the setup file
 ```
 #### Connection file
