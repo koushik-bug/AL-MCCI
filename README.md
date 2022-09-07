@@ -3,7 +3,7 @@
 
 ![Project Image](project-image-url)
 
-> Active Learning assisted Monte Carlo Configuration Interaction (AL-MCCI) is a protocol to calculate the singlet and triplet state of a model(and molecule) using the Heisenberg spin-1/2 Hamiltonian model.
+> Active Learning assisted Monte Carlo Configuration Interaction (AL-MCCI) is a protocol to calculate the spin states of any latice using the Heisenberg spin-1/2 Hamiltonian model. Our current implimentation only able to handle S_0 and T_1 states.
 
 ---
 
@@ -20,9 +20,9 @@
 ---
 
 ## Description
-Monte Carlo (MC) is a numerical technique where a problem is solved using the help of a random number. In Monte Carlo Configuration Interaction (MCCI), a system's electronic structure is solved using the CI-based method. Though MCCI help to study the electronic structure of a system that was otherwise impossible to do, it suffers from slow convergence. We devised a protocol called active learning assisted  MCCI (AL-MCCI), where active learning makes the convergence manifold faster and can also optimize Hilbert space for a particular target state.
+Monte Carlo (MC) is a numerical technique where a problem is solved using the help of a random number. In Monte Carlo Configuration Interaction (MCCI), a system's electronic structure is solved using the CI-based method. Though MCCI help to study the electronic structure of a system that was otherwise impossible to do, it suffers from slow convergence. We devised a protocol called active learning assisted  MCCI (AL-MCCI), where active learning makes the convergence many fold faster and can also optimize Hilbert space for a particular target state.
 
-Initially, MCCI steps update the sub-Hilbert space and build the train data set. An Artificial Neural Network (ANN) model learns from the data and, using that information, predicts the relative importance of unlabelled configurations. The preliminary information about the configurations helps build a better Hilbert space, leading to faster convergence.
+Initially, MCCI steps update the sub-Hilbert space and build the training data set. An Artificial Neural Network (ANN) model learns from the data and, using that information, predicts the relative importance of unlabelled configurations. The preliminary information about the configurations helps build a better Hilbert space, leading to faster convergence.
 
 [Back To The Top](#read-me-template)
 
@@ -61,7 +61,7 @@ model,HB                 # Hamiltonian model, HB for Heisenberg Hamiltonian mode
 nSite,14                 # Number of the site on the system, In this case, system has 14 sites  
 subSpace,200             # Initial Size of the sub-Hilbert space. Here we start with 200 configurations  
 nStates,10               # Number of states on which spin states are calculated
-Ms,1,0                   #  
+Ms,1,0                   # Here Z component of spin are considered, 1st number is the number of different Ms values, subsequent number is the Ms values 
 s2Target,0               # Spin value of target states, 0 for singlet, 2 for triplet                  
 maxItr,30                # Maximum iteration number  
 startSpinTargetItr,5     # From which iteration Spin targeting has start. Minimum value should be 1
