@@ -12,8 +12,8 @@ sList = []
 for i in range(nSite):
     sList.append(i)
 
-    sProduct = []
-    sProduct = list(it.product(sList, repeat=2))
+sProduct = []
+sProduct = list(it.product(sList, repeat=2))
 
 typed_sProduct = List()
 [typed_sProduct.append(x) for x in sProduct]
