@@ -12,13 +12,20 @@ model, nSite, subSpace, nStates, s2Target, maxItr, startSpinTargetItr, energyTol
 def updateDeterminatList(allDet, allCi, newGen, ci, dataFile, step ):
 
 
-    for  idx, elem  in enumerate(newGen):
-        if elem in allDet:
-            allDet.pop(idx)
-            allCi.pop(idx)
 
+    similar_idx = []
+    for  idx, elem  in enumerate(allDet):
+        if elem in newGen:
+            similar_idx.append(idx)
+
+    for idx1,idx2 in  enumerate(similar_idx):
+        allDet.pop(idx2-idx1)
+        allCi.pop(idx2-idx1)
+
+    for idx, elem  in enumerate(newGen):
         allDet.append(elem)
         allCi.append(ci[idx])
+
     
     if (step == 0):
         #randomly shuffle the list in same order
