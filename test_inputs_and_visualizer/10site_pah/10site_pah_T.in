@@ -6,7 +6,7 @@ nStates,10
 Ms,1,1
 s2Target,2
 maxItr,50
-startSpinTargetItr,5
+startSpinTargetItr,50
 energyTola, 0.0001
 spinTola,0.01
 jValue,1
