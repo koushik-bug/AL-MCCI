@@ -20,9 +20,9 @@
 ---
 
 ## Description
-Monte Carlo (MC) is a numerical technique where a problem is solved using the help of a random number. In Monte Carlo Configuration Interaction (MCCI), a system's electronic structure is solved using the CI-based method. Though MCCI help to study the electronic structure of a system that was otherwise impossible to do, it suffers from slow convergence. We devised a protocol called active learning assisted  MCCI (AL-MCCI), where active learning makes the convergence many fold faster and can also optimize Hilbert space for a particular target state.
+Monte Carlo (MC) is a numerical technique where a problem is solved using the help of a random number. In Monte Carlo Configuration Interaction (MCCI), a system's electronic structure is solved using the CI-based method. Though MCCI helps to study the electronic structure of a system, which was otherwise impossible to do, it suffers from slow convergence. We devised a protocol called active learning-assisted MCCI (AL-MCCI), where active learning makes the convergence manyfold faster and can also optimize Hilbert space for a particular target state.
 
-Initially, MCCI steps update the sub-Hilbert space and build the training data set. An Artificial Neural Network (ANN) model learns from the data and, using that information, predicts the relative importance of unlabelled configurations. The preliminary information about the configurations helps build a better Hilbert space, leading to faster convergence.
+Initially, MCCI steps update the sub-Hilbert space and build the training data set. An Artificial Neural Network (ANN) model learns from the data and, using that information predicts the relative importance of unlabelled configurations. The preliminary information about the configurations helps build a better Hilbert space, leading to faster convergence.
 
 [Back To The Top](#read-me-template)
 
@@ -56,22 +56,22 @@ To perform an AL-MCCI calculations, user need to configure the input file based 
 In the input file, argumanent are given in  "P,Q,R" format, where P is the keyword and Q, R are values associated with the keyword.  
 
 ```
-***startSetup***         # First line of input setup file  
+***startSetup***         # First line of the input setup file  
 model,HB                 # Hamiltonian model, HB for Heisenberg Hamiltonian model  
-nSite,14                 # Number of the site on the system, In this case, system has 14 sites  
-subSpace,200             # Initial Size of the sub-Hilbert space. Here we start with 200 configurations  
+nSite,14                 # Number of the site on the system. In this case, the system has 14 sites  
+subSpace,200             # Initial Size of the sub-Hilbert space. Here, we start with 200 configurations  
 nStates,10               # Number of states on which spin states are calculated
-Ms,1,0                   # Here Z component of spin are considered, 1st number is the number of different Ms values, subsequent number is the Ms values 
+Ms,1,0                   # Here Z component of spin is considered, 1st number is the number of different Ms values, the subsequent number is the Ms values 
 s2Target,0               # Spin value of target states, 0 for singlet, 2 for triplet                  
 maxItr,30                # Maximum iteration number  
-startSpinTargetItr,5     # From which iteration Spin targeting has start. Minimum value should be 1
+startSpinTargetItr,5     # From which iteration Spin targeting has started. The minimum value should be 1
 energyTola,0.01          # Energy convergence threshold
 spinTola,0.2             # Spin convergence threshold
 jValue,1                 # Coupling constant.
 beta,38.61               # kT value of Boltzmann probability distribution function
 bondOrder,bondOrder-765.dat    # Node connection file name. This file carries specific information about the system
 restart,False            # About restarting status of the calculation. If the user wants to run the calculation from the last step of the previous calculation, the
-                         "False" value needs to be changed to "True," and the second value is the file name of the last job's final configurations list.
+                         The "False" value needs to be changed to "True," and the second value is the file name of the last job's final configurations list.
 ***endSetup***           # Last line of the setup file
 ```
 #### Connection file
@@ -103,7 +103,7 @@ Once the input file is constructed and all the files put into the same directory
 ```
 
 ## Output Files
-There is a total 10 output files generated after a successful calculations-  
+There is a total 10 output files generated after successful calculations-  
 The main files are
 ```
 1) input_file.in.out            # Main output file, which contains information on subspace size, energy, and spin value with each iteration. 
@@ -128,7 +128,8 @@ These are scratch files generated during calculations. It is recommended to dele
 ---
 
 ## References
-[Back To The Top](#read-me-template)
+Active Learning Assisted MCCI to Target Spin States
+https://pubs.acs.org/doi/10.1021/acs.jctc.2c00935
 
 ---
 
@@ -160,7 +161,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED "AS IS"WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
