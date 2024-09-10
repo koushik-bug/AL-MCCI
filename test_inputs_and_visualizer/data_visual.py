@@ -28,7 +28,7 @@ for i in range(st+12,end-1):
 	fout.write(newline)
 fout.close()
 print("### The File is Ready###.\nPlease type the follwing command to visualize the outputs.\n")
-print("gnuplot")
+print("gnuplot\nset terminal x11")
 print(f"plot \"{out}\" u 1:2 w lp pt 2 lw 4 title \"Energy\"")
 print(f"plot \"{out}\" u 1:3 w lp pt 2 lw 4 title \"Spin\"")
 
