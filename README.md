@@ -119,7 +119,7 @@ Apart from that, there are four more files-
 7) input_file.in.out.predictData.csv 
 8) input_file.in.out.accVsPreTest.dat 
 9) input_file.in.out.accVsPreTrain.dat 
-10) input_file.in.out.accVsPreTest.dat
+10) input_file.in.out.enrich.csv
 ```
 These are scratch files generated during calculations. It is recommended to delete these files to maintain a cleaner directory.
 
